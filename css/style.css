@@ -27,7 +27,7 @@ header  {
 }
 
 .img_logo   {
-    width: 50px;
+    width: 150px;
 }
 
 .nav_bar    {
@@ -104,6 +104,7 @@ footer  {
     margin-right: 10%;;
 }
 
+
 .footer_links_container   {   
     display: flex;
     flex-direction: row;
@@ -128,6 +129,7 @@ li:first-child  {
 
 li  {
     color: white;
+    list-style: none;
 }
 
 
