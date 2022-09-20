@@ -6,8 +6,7 @@
 }
 
 body    {
-    background-color: yellow;
-    font-size: medium;
+    font-size: 24px;
 }
 
 /* Header style */
@@ -110,7 +109,6 @@ h1  {
 .section_container  {
     display: flex;
     justify-content: center;
-    /* align-content: center; */
     align-items: center;
 }
 
@@ -129,17 +127,14 @@ h1  {
 
 
 .section_container.first    {
-    background-color: antiquewhite;
     flex-direction:row;
 }
 
 .section_container.second   {
-    background-color: pink;
     flex-direction:row-reverse;
 }
 
 .section_container.third    {
-    background-color: antiquewhite;
     flex-direction: row;
 }
 
@@ -151,7 +146,6 @@ h1  {
 }
 
 .fourth {
-    background-color: pink;
     text-align: center;
 }
 
@@ -218,6 +212,7 @@ li  {
 hr  {
     margin-top: 15px;
     margin-bottom: 15px;
+    color: #5865f2;
 }
 
 .flag_ita   {
@@ -239,10 +234,3 @@ hr  {
     color: white;
     text-decoration: none;
 }
-
-/* .social_icon    {
-    width: 1em;
-} */
-
-
-/* #5865f2 */
