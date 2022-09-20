@@ -9,18 +9,21 @@ body    {
     /* max-width: 1000px; */
 }
 
+.main_header    {
+    background-image: url(../img/jumbo.png);
+    height: 400px;
+    background-size: cover;
+    position: relative;
+}
+
 /* Header style */
 header  {
     /* background-color: blueviolet; */
-    background-image: url(../img/jumbo.png);
     color: white;
-    max-width: 90%;
-    background-size: cover;
-    position: relative;
-    height: 300px;
+    max-width: 80%;
 }
 
-main    {
+.main_body    {
     max-width: 80%;
 }
 
