@@ -7,10 +7,8 @@
 
 /* Only for coding */
 
-
-
 body    {
-    /* max-width: 1000px; */
+    background-color: yellow;
 }
 
 .main_header    {
@@ -26,7 +24,8 @@ header  {
 }
 
 .main_body    {
-    background-color: yellow;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .img_logo   {
@@ -37,6 +36,8 @@ header  {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 
@@ -44,10 +45,13 @@ header  {
     margin: 10px;
     color: white;
     text-decoration: none;
+
 }
 
 .home_header    {
     text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .section_container  {
@@ -60,13 +64,13 @@ header  {
 .img_container    {
     flex-basis: 0;
     flex-grow: 1;
-    flex-shrink: 0;
+    flex-shrink: 1;
 }
 
 .text_section   {
     flex-basis: 0;
     flex-grow: 1;
-    flex-shrink: 0;
+    flex-shrink: 1;
 }
 
 
