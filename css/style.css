@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+/* Only for coding */
+
+
+
 body    {
     /* max-width: 1000px; */
 }
@@ -18,13 +22,11 @@ body    {
 
 /* Header style */
 header  {
-    /* background-color: blueviolet; */
     color: white;
-    max-width: 80%;
 }
 
 .main_body    {
-    max-width: 80%;
+    background-color: yellow;
 }
 
 .img_logo   {
@@ -55,10 +57,19 @@ header  {
     align-content: center;
 }
 
-.img_section    {
+.img_container    {
+    flex-basis: 0;
     flex-grow: 1;
+    flex-shrink: 0;
 }
 
 .text_section   {
+    flex-basis: 0;
     flex-grow: 1;
+    flex-shrink: 0;
+}
+
+
+.section_container.first {
+    background-color: antiquewhite;
 }
