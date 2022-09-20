@@ -54,6 +54,8 @@ header  {
     margin-right: 10%;
 }
 
+/* Main */
+
 .section_container  {
     display: flex;
     
@@ -87,4 +89,34 @@ header  {
 .section_container.third    {
     background-color: antiquewhite;
     flex-direction: row;
+}
+
+.fourth {
+    background-color: pink;
+    text-align: center;
+}
+
+/* Footer */
+
+footer  {
+    background-color: darkviolet;
+}
+
+.footer_margin  {
+    margin-left: 10%;
+    margin-right: 10%;;
+}
+
+.footer_links_container   {
+    background-color: grey;   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer_nav_bar {
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
