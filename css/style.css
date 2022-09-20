@@ -45,7 +45,6 @@ header  {
     margin: 10px;
     color: white;
     text-decoration: none;
-
 }
 
 .home_header    {
@@ -99,7 +98,7 @@ header  {
 /* Footer */
 
 footer  {
-    background-color: darkviolet;
+    background-color: #23272a;
 }
 
 .footer_margin  {
@@ -107,16 +106,31 @@ footer  {
     margin-right: 10%;;
 }
 
-.footer_links_container   {
-    background-color: grey;   
+.footer_links_container   {   
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
 .footer_nav_bar {
-    background-color: grey;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
+/* Colors footer */
+
+.title_h3   {
+    color: #5865f2;
+}
+
+li:first-child  {
+    color: #5865f2;
+}
+
+li  {
+    color: white;
+}
+
+
+/* #5865f2 */
