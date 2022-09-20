@@ -9,14 +9,15 @@ body    {
     background-color: yellow;
 }
 
-.main_header    {
+/* Header style */
+
+.section_header_container    {
     background-image: url(../img/jumbo.png);
     height: 400px;
     background-size: cover;
     position: relative;
 }
 
-/* Header style */
 header  {
     color: white;
 }
@@ -31,16 +32,18 @@ header  {
 }
 
 .nav_bar    {
+    padding-top: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: baseline;
     margin-left: 5%;
     margin-right: 5%;
 }
 
 
 .links  {
-    margin: 10px;
+    padding: 20px;
     color: white;
     text-decoration: none;
 }
@@ -51,7 +54,19 @@ header  {
     margin-right: 10%;
 }
 
+h1  {
+    padding-top: 60px;
+}
+
+.p_h1   {
+    padding: 20px;
+}
+
 /* Main */
+
+.img_sections   {
+    width: 100%;
+}
 
 .section_container  {
     display: flex;
@@ -61,13 +76,14 @@ header  {
 }
 
 .img_container    {
-    flex-basis: 0;
+    flex-basis: 70%;
     flex-grow: 1;
     flex-shrink: 1;
 }
 
 .text_section   {
-    flex-basis: 0;
+    padding:15px;
+    flex-basis: 30%;
     flex-grow: 1;
     flex-shrink: 1;
 }
@@ -88,6 +104,13 @@ header  {
     flex-direction: row;
 }
 
+.text_section_fourth    {
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
 .fourth {
     background-color: pink;
     text-align: center;
@@ -97,6 +120,7 @@ header  {
 
 footer  {
     background-color: #23272a;
+    padding-top: 20px;
 }
 
 .footer_margin  {
@@ -117,6 +141,14 @@ footer  {
     justify-content: space-between;
 }
 
+.text_section_fourth_bottom {
+    padding-bottom: 60px;
+}
+
+.h3_text_section_fourth_bottom  {
+    padding-bottom: 20px;
+}
+
 /* Colors footer */
 
 .title_h3   {
@@ -130,6 +162,11 @@ li:first-child  {
 li  {
     color: white;
     list-style: none;
+}
+
+hr  {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 
