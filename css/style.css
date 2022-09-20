@@ -5,8 +5,6 @@
     box-sizing: border-box;
 }
 
-/* Only for coding */
-
 body    {
     background-color: yellow;
 }
@@ -57,9 +55,9 @@ header  {
 
 .section_container  {
     display: flex;
-    
     justify-content: center;
-    align-content: center;
+    /* align-content: center; */
+    align-items: center;
 }
 
 .img_container    {
