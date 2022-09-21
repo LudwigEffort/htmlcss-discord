@@ -13,7 +13,7 @@ body    {
 
 .section_header_container    {
     background-image: url(../img/jumbo.png);
-    height: 400px;
+    height: 600px;
     background-size: cover;
     position: relative;
 }
@@ -225,7 +225,9 @@ hr  {
 
 .social {
     color: white;
+    font-size: 2rem;
 }
+    
 
 .button5    {
     background-color: #5865f2;
@@ -234,3 +236,6 @@ hr  {
     color: white;
     text-decoration: none;
 }
+
+
+
